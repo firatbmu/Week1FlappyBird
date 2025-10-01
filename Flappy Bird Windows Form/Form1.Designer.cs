@@ -44,10 +44,10 @@
             // pipeTop
             // 
             this.pipeTop.Image = global::Flappy_Bird_Windows_Form.Properties.Resources.pipedown;
-            this.pipeTop.Location = new System.Drawing.Point(742, -91);
+            this.pipeTop.Location = new System.Drawing.Point(485, 2);
             this.pipeTop.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pipeTop.Name = "pipeTop";
-            this.pipeTop.Size = new System.Drawing.Size(150, 409);
+            this.pipeTop.Size = new System.Drawing.Size(150, 145);
             this.pipeTop.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeTop.TabIndex = 0;
             this.pipeTop.TabStop = false;
@@ -55,10 +55,10 @@
             // pipeBottom
             // 
             this.pipeBottom.Image = global::Flappy_Bird_Windows_Form.Properties.Resources.pipe;
-            this.pipeBottom.Location = new System.Drawing.Point(543, 643);
+            this.pipeBottom.Location = new System.Drawing.Point(485, 502);
             this.pipeBottom.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pipeBottom.Name = "pipeBottom";
-            this.pipeBottom.Size = new System.Drawing.Size(164, 440);
+            this.pipeBottom.Size = new System.Drawing.Size(150, 146);
             this.pipeBottom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pipeBottom.TabIndex = 1;
             this.pipeBottom.TabStop = false;
@@ -66,7 +66,7 @@
             // flappyBird
             // 
             this.flappyBird.Image = global::Flappy_Bird_Windows_Form.Properties.Resources.bird;
-            this.flappyBird.Location = new System.Drawing.Point(104, 351);
+            this.flappyBird.Location = new System.Drawing.Point(-1, 185);
             this.flappyBird.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flappyBird.Name = "flappyBird";
             this.flappyBird.Size = new System.Drawing.Size(123, 106);
@@ -77,10 +77,10 @@
             // ground
             // 
             this.ground.Image = global::Flappy_Bird_Windows_Form.Properties.Resources.ground;
-            this.ground.Location = new System.Drawing.Point(-24, 974);
+            this.ground.Location = new System.Drawing.Point(-1, 646);
             this.ground.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.ground.Name = "ground";
-            this.ground.Size = new System.Drawing.Size(982, 194);
+            this.ground.Size = new System.Drawing.Size(846, 194);
             this.ground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ground.TabIndex = 3;
             this.ground.TabStop = false;
@@ -90,7 +90,7 @@
             this.scoreText.AutoSize = true;
             this.scoreText.BackColor = System.Drawing.Color.Moccasin;
             this.scoreText.Font = new System.Drawing.Font("Arial Narrow", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.scoreText.Location = new System.Drawing.Point(272, 1017);
+            this.scoreText.Location = new System.Drawing.Point(13, 18);
             this.scoreText.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.scoreText.Name = "scoreText";
             this.scoreText.Size = new System.Drawing.Size(180, 57);
@@ -108,7 +108,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Aqua;
-            this.ClientSize = new System.Drawing.Size(933, 1088);
+            this.ClientSize = new System.Drawing.Size(843, 839);
             this.Controls.Add(this.scoreText);
             this.Controls.Add(this.flappyBird);
             this.Controls.Add(this.ground);
@@ -137,6 +137,7 @@
         private System.Windows.Forms.PictureBox ground;
         private System.Windows.Forms.Label scoreText;
         private System.Windows.Forms.Timer gameTimer;
+        
     }
 }
 
